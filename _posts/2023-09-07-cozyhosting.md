@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "CozyHosting"
+title: "HTB Linux Easy: CozyHosting"
 description: "CozyHosting is an Easy rated Linux machine on HTB."
 categories: [CTF,HTB]
 tags: [Linux,Easy]

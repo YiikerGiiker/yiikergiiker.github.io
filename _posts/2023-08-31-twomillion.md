@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "TwoMillion"
+title: "HTB Linux Easy: TwoMillion"
 description: "TwoMillion is an Easy rated Linux machine on HTB."
 categories: [CTF,HTB]
 tags: [Linux,Easy]

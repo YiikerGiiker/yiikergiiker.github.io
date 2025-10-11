@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BoardLight"
+title: "HTB Linux Easy: BoardLight"
 description: "BoardLight is an Easy rated Linux machine on HTB."
 categories: [CTF,HTB]
 tags: [Linux,Easy]

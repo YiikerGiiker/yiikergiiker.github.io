@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "MonitorsTwo"
+title: "HTB Linux Easy: MonitorsTwo"
 description: "MonitorsTwo is an Easy rated Linux machine on HTB."
 categories: [CTF,HTB]
 tags: [Linux,Easy]

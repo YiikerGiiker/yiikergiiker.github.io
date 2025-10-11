@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Chemistry"
+title: "HTB Linux Easy: Chemistry"
 description: "Chemistry is an Easy rated Linux machine on HTB."
 categories: [CTF,HTB]
 tags: [Linux,Easy]

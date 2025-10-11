@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Perfection"
+title: "HTB Linux Easy: Perfection"
 description: "Perfection is an Easy rated Linux machine on HTB."
 categories: [CTF,HTB]
 tags: [Linux,Easy]

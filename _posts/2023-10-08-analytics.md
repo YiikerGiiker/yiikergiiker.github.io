@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Analytics"
+title: "HTB Linux Easy: Analytics"
 description: "Analytics is an Easy rated Linux machine on HTB."
 categories: [CTF,HTB]
 tags: [Linux,Easy]

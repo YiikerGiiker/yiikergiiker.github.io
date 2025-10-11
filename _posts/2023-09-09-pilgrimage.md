@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Pilgrimage"
+title: "HTB Linux Easy: Pilgrimage"
 description: "Pilgrimage is an Easy rated Linux machine on HTB."
 categories: [CTF,HTB]
 tags: [Linux,Easy]

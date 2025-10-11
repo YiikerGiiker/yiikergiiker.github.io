@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Wifinetic"
+title: "HTB Linux Easy: Wifinetic"
 description: "Wifinetic is an Easy rated Linux machine on HTB."
 categories: [CTF,HTB]
 tags: [Linux,Easy]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "LinkVortex"
+title: "HTB Linux Easy: LinkVortex"
 description: "LinkVortex is an Easy rated Linux machine on HTB."
 categories: [CTF,HTB]
 tags: [Linux,Easy]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Devvortex"
+title: "HTB Linux Easy: Devvortex"
 description: "Devvortex is an Easy rated Linux machine on HTB."
 categories: [CTF,HTB]
 tags: [Linux,Easy]

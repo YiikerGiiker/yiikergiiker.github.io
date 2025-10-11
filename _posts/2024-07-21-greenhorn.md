@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "GreenHorn"
+title: "HTB Linux Easy: GreenHorn"
 description: "GreenHorn is an Easy rated Linux machine on HTB."
 categories: [CTF,HTB]
 tags: [Linux,Easy]

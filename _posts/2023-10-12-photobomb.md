@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Photobomb"
+title: "HTB Linux Easy: Photobomb"
 description: "Photobomb is an Easy rated Linux machine on HTB."
 categories: [CTF,HTB]
 tags: [Linux,Easy]
