@@ -32,7 +32,7 @@ Priv esc (sticky bit on /sbin/capsh)
 Become the root user of the docker container.
 ![Pasted image 20240715105607.png](/images/Pasted image 20240715105607.png){: .normal width="500" }
 
-DB credentials in [entrypoint.sh](http://entrypoint.sh/).
+DB credentials in entrypoint.sh.
 ![Pasted image 20240715105557.png](/images/Pasted image 20240715105557.png){: .normal }
 
 Using the SQL credentials we find password hashes in the user_auth table.
