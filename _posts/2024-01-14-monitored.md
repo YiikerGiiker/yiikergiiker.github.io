@@ -3,7 +3,7 @@ layout: post
 title: "HTB Linux Medium: Monitored"
 description: "Monitored is a Medium rated Linux machine on HTB."
 categories: [CTF,HTB]
-tags: [Linux,Easy]
+tags: [Linux,Medium]
 author: g
 ---
 
