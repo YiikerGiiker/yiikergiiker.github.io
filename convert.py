@@ -4,7 +4,7 @@ import os
 import shutil
 
 # --- Configuration ---
-source_folder = "/home/giiker/Documents/Personal/Personal/git/notes/Hacking/CTFs/HackTheBox/Linux/Insane"
+source_folder = "/home/giiker/Documents/Personal/Personal/git/notes/Hacking/CTFs/HackTheBox/AD/Easy"
 source_images_dir = "/home/giiker/Documents/Personal/Personal/git/notes/Hacking/Images"
 blog_images_dir = "images"
 posts_folder = "_posts"
@@ -59,10 +59,10 @@ for md_file in os.listdir(source_folder):
         # Generate front matter
         front_matter = f"""---
 layout: post
-title: "HTB Linux Insane: {title}"
-description: "{title} is an Insane rated Linux machine on HTB."
+title: "HTB AD Easy: {title}"
+description: "{title} is an Easy rated AD machine on HTB."
 categories: [CTF,HTB]
-tags: [Linux,Insane]
+tags: [AD,Easy]
 author: g
 ---
 """
