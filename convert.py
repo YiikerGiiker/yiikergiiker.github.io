@@ -4,7 +4,7 @@ import os
 import shutil
 
 # --- Configuration ---
-source_folder = "/home/giiker/Documents/Personal/Personal/git/notes/Hacking/CTFs/HackTheBox/Windows/Insane"
+source_folder = "/home/giiker/Documents/Personal/Personal/git/notes/Hacking/CTFs/Vulnlab/Chains/Easy"
 source_images_dir = "/home/giiker/Documents/Personal/Personal/git/notes/Hacking/Images"
 blog_images_dir = "images"
 posts_folder = "_posts"
@@ -59,10 +59,10 @@ for md_file in os.listdir(source_folder):
         # Generate front matter
         front_matter = f"""---
 layout: post
-title: "HTB Windows Insane: {title}"
-description: "{title} is an Insane rated Windows machine on HTB."
-categories: [CTF,HTB]
-tags: [Windows,Insane]
+title: "Vulnlab Chain Easy: {title}"
+description: "{title} is an Easy rated Chain on Vulnlab."
+categories: [CTF,Vulnlab]
+tags: [Chain,Easy]
 author: g
 ---
 """
