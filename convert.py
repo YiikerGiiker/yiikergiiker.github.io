@@ -4,8 +4,8 @@ import os
 import shutil
 
 # --- Configuration ---
-source_folder = "/home/giiker/Documents/Personal/Personal/git/notes/Hacking/CTFs/Vulnlab/Chains/Easy"
-source_images_dir = "/home/giiker/Documents/Personal/Personal/git/notes/Hacking/Images"
+source_folder = "/mnt/c/users/giiker/documents/personal/git/notes/hacking/ctfs/hackthebox/0_Temp-Retired"
+source_images_dir = "/mnt/c/users/giiker/documents/personal/git/notes/hacking/images"
 blog_images_dir = "images"
 posts_folder = "_posts"
 
@@ -59,10 +59,10 @@ for md_file in os.listdir(source_folder):
         # Generate front matter
         front_matter = f"""---
 layout: post
-title: "Vulnlab Chain Easy: {title}"
-description: "{title} is an Easy rated Chain on Vulnlab."
-categories: [CTF,Vulnlab]
-tags: [Chain,Easy]
+title: "HTB Linux Easy: {title}"
+description: "{title} is an Easy rated Linux machine on HTB."
+categories: [CTF,HTB]
+tags: [Linux,Easy]
 author: g
 ---
 """
