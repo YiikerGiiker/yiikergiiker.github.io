@@ -1,16 +1,756 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  {% for post in site.posts %}
-    <url>
-      <loc>{{ site.url }}{{ post.url }}</loc>
-      {% if post.lastmod == null %}
-        <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
-      {% else %}
-        <lastmod>{{ post.lastmod | date_to_xmlschema }}</lastmod>
-      {% endif %}
-    </url>
-  {% endfor %}
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+
+<url>
+  <loc>https://yiikergiiker.github.io/</loc>
+  <lastmod>2025-12-31T07:20:35+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/categories/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/tags/</loc>
+  <lastmod>2025-12-31T07:20:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/archives/</loc>
+  <lastmod>2025-12-31T07:20:35+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/about/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/cve-2025-14804/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/cve-2025-13456/</loc>
+  <lastmod>2025-12-31T07:20:35+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/cve-2025-13355/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/monitorsfour/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/editor/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/gavel/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/fries/</loc>
+  <lastmod>2025-12-31T07:20:35+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/goadnha-proxmox_ludus/</loc>
+  <lastmod>2025-12-31T07:20:35+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/eighteen/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/cve-2025-11560/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/page2/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/page3/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/page12/</loc>
+  <lastmod>2025-12-31T07:20:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/tags/easy/</loc>
+  <lastmod>2025-12-31T07:20:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/tags/linux/</loc>
+  <lastmod>2025-12-31T07:20:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/tags/windows/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/tags/medium/</loc>
+  <lastmod>2025-12-31T07:20:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/tags/ad/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/tags/active/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/tags/hard/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/tags/cve-hunting/</loc>
+  <lastmod>2025-12-31T07:20:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/tags/insane/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/tags/chain/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/categories/ctf/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/categories/htb/</loc>
+  <lastmod>2025-12-31T07:20:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/categories/vulnlab/</loc>
+  <lastmod>2025-12-31T07:20:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/categories/cve/</loc>
+  <lastmod>2025-12-31T07:20:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/categories/homelab/</loc>
+  <lastmod>2025-12-31T07:20:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/categories/goad/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/tags/goad/</loc>
+  <lastmod>2025-12-31T07:20:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/tags/homelab/</loc>
+  <lastmod>2025-12-31T07:20:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/tags/ludus/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/tags/prolabs/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/tags/proxmox/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/nanocorp/</loc>
+  <lastmod>2025-12-31T07:20:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/giveback/</loc>
+  <lastmod>2025-12-31T07:20:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/conversor/</loc>
+  <lastmod>2025-12-31T07:20:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/artificial/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/darkzero/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/signed/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/prolabs/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/CVE-Hunting-Setup/</loc>
+  <lastmod>2025-12-31T07:20:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/expressway/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/planning/</loc>
+  <lastmod>2025-12-31T07:20:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/fluffy/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/tombwatcher/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/codeparttwo/</loc>
+  <lastmod>2025-12-31T07:20:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/puppy/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/hybrid/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/baby2/</loc>
+  <lastmod>2025-12-31T07:20:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/retro/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/lock/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/baby/</loc>
+  <lastmod>2025-12-31T07:20:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/sync/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/forgotten/</loc>
+  <lastmod>2025-12-31T07:20:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/feedback/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/data/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/underpass/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/escapetwo/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/chemistry/</loc>
+  <lastmod>2025-12-31T07:20:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/linkvortex/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/certified/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/administrator/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/cicada/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/monitorsthree/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/sea/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/greenhorn/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/permx/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/editorial/</loc>
+  <lastmod>2025-12-31T07:20:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/blurry/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/boardlight/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/rebound/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/mailing/</loc>
+  <lastmod>2025-12-31T07:20:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/iclean/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/usage/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/runner/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/headless/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/wifinetictwo/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/napper/</loc>
+  <lastmod>2025-12-31T07:20:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/formulax/</loc>
+  <lastmod>2025-12-31T07:20:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/perfection/</loc>
+  <lastmod>2025-12-31T07:20:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/jab/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/office/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/builder/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/crafty/</loc>
+  <lastmod>2025-12-31T07:20:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/appsanity/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/skyfall/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/pov/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/drive/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/analysis/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/monitored/</loc>
+  <lastmod>2025-12-31T07:20:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/ouija/</loc>
+  <lastmod>2025-12-31T07:20:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/bizness/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/surveillance/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/manager/</loc>
+  <lastmod>2025-12-31T07:20:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/devvortex/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/zipping/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/hospital/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/sandworm/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/authority/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/broker/</loc>
+  <lastmod>2025-12-31T07:20:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/codify/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/clicker/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/photobomb/</loc>
+  <lastmod>2025-12-31T07:20:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/analytics/</loc>
+  <lastmod>2025-12-31T07:20:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/sense/</loc>
+  <lastmod>2025-12-31T07:20:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/precious/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/nibbles/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/devel/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/shocker/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/mirai/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/grandpa/</loc>
+  <lastmod>2025-12-31T07:20:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/optimum/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/granny/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/busqueda/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/blocky/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/beep/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/antique/</loc>
+  <lastmod>2025-12-31T07:20:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/return/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/netmon/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/knife/</loc>
+  <lastmod>2025-12-31T07:20:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/cap/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/bashed/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/lame/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/jerry/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/legacy/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/blue/</loc>
+  <lastmod>2025-12-31T07:20:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/wifinetic/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/topology/</loc>
+  <lastmod>2025-12-31T07:20:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/pc/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/sau/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/pilgrimage/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/monitorstwo/</loc>
+  <lastmod>2025-12-31T07:20:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/cozyhosting/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/twomillion/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/posts/keeper/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/page4/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/page11/</loc>
+  <lastmod>2025-12-31T07:20:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/page10/</loc>
+  <lastmod>2025-12-31T07:20:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/page5/</loc>
+  <lastmod>2025-12-31T07:20:35+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/page9/</loc>
+  <lastmod>2025-12-31T07:20:35+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/page6/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/page8/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://yiikergiiker.github.io/page7/</loc>
+  <lastmod>2025-12-31T07:20:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+
+
 </urlset>
