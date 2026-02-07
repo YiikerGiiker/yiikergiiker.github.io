@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "HTB AD Medium: Signed"
-description: "Signed is a Medium rated AD machine on HTB."
+title: "HTB Linux Medium: Pterodactyl"
+description: "Pterodactyl is a Medium rated Linux machine on HTB."
 categories: [CTF,HTB]
-tags: [AD,Medium,Active]
+tags: [Linux,Medium,Active]
 author: g
 ---
 
 ## 🔒 Post is Locked
-**Signed** is currently active on HackTheBox.
+**Pterodactyl** is currently active on HackTheBox.
 
 Once retired, this writeup will be published in accordance with HackTheBox's content publishing policy. Thank you for your patience!
